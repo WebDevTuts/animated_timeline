@@ -63,6 +63,16 @@ function checkWindowSize() {
 
   var newTimelineWidth = $('.timeline').width();
 
+  if (newTimelineWidth > 500 && timelineWidth > 500) {
+    // do nothing
+  } else if (newTimelineWidth < 500 && timelineWidth < 500) {
+    // do nothing
+  } else {
+    if (newTimelineWidth > 500 && timelineWidth < 500) {
+      firstRun = true;
+    }
+  }
+
   timelineWidth = newTimelineWidth;
 
   if (firstRun === true) {
