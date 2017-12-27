@@ -16,3 +16,5 @@ Topics include:
 - Adding autostart and screen size detection features
 
 [View demo site here.](https://webdevtuts.github.io/animated_timeline/)
+
+![Preview](screenshot.jpg)
