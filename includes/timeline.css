@@ -52,7 +52,7 @@ body {
   left: 0;
 }
 
-.timeline .panel_slider { width: 100%; }
+.timeline .panel_slider { width: 100%; position: relative; }
 .timeline .panel { width: 340px; position: absolute; }
 
 .timeline .panel_content {
