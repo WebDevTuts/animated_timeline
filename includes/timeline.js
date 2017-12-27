@@ -10,6 +10,7 @@ $(document).ready(function() {
   timelineWidth = $('.timeline').width();
   totalPanels = $('.timeline .panel').length;
   adjustLayout();
+  setInterval(checkWindowSize, 1000);
 
 });
 
@@ -55,5 +56,18 @@ function activateNavigation() {
       left: newBackgroundPosition+'px'
     }, 1000);
   });
+
+}
+
+function checkWindowSize() {
+
+  var newTimelineWidth = $('.timeline').width();
+
+  timelineWidth = newTimelineWidth;
+
+  if (firstRun === true) {
+    $('.timeline nav a:nth-child('+(currentPanel+1)+')').trigger('click');
+    firstRun = false;
+  }
 
 }
