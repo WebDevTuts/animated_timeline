@@ -52,7 +52,7 @@ body {
 }
 
 .timeline .panel_slider { width: 100%; }
-.timeline .panel { width: 340px; }
+.timeline .panel { width: 340px; position: absolute; }
 
 .timeline .panel_content {
   padding: 75px 10px 0 40px;
