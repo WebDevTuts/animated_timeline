@@ -33,6 +33,7 @@ function activateNavigation() {
 
   $('.timeline nav a').on('click', function() {
     currentPanel = $(this).index();
+    timelineWidth = $('.timeline').width();
 
     $('.timeline nav a').removeClass('selected');
     $(this).addClass('selected');
