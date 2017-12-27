@@ -14,3 +14,5 @@ Topics include:
 - Adding navigation elements
 - Animating the content based on navigation
 - Adding autostart and screen size detection features
+
+[View demo site here.](https://webdevtuts.github.io/animated_timeline/)
