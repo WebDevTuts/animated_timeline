@@ -27,6 +27,7 @@ body {
 }
 
 .timeline .panel_container {
+  overflow: hidden;
   position: relative; margin: 10px 0 0 0; width: 100%; height: 300px;
   background-color: #df4502;
   background: #26016a; /* Old browsers */
